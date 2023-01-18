@@ -1,0 +1,118 @@
+
+.container{
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    height: 80vh;
+    width: 35.1%;
+    background-color: white;
+    border-radius: 16px;
+}
+/* ---------------------------------------Main Up Icons------------------------------------------------------ */
+.main_up{
+    font-size: 36px;
+    display: flex;
+    margin: 10px 6px;
+    box-sizing: border-box;
+}
+.main_up .cancle{
+    flex-basis: 45%;
+    display: inline-block;
+}
+
+.cancle svg:hover{
+    border-radius: 50px;
+    background-color: rgb(234, 233, 233);
+}
+.main_up .twitter{
+    color: rgb(29, 155, 240);
+    
+    flex-basis: 50%;
+}
+/* ------------------------------------------Main Down Contain--------------------------------------------------------- */
+.main_down{
+    height: 60vh;
+    width: 53%;
+    margin: auto;
+    margin-top: 19px;
+}
+.main_down .sitt{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.main_down .div_border{
+    border: 1px solid rgb(215 214 214 / 75%);
+}
+.text_sty{
+    font-weight: 600;
+    border-radius: 35px;
+    width: 100%;
+    text-align: center;
+    margin: 3vh 0;
+    height: 5vh;
+}
+.hov_blu:hover{
+    background-color: #b7ceec24;
+
+}
+.hov_nom:hover{
+    background-color: rgb(215 214 214 / 75%);
+
+}
+.curpt{
+    cursor: pointer;
+}
+.main_down .div_border p{
+    margin: 9px;
+}
+.line_or{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -10px;
+}
+.line_or .or span{
+    font-size: inherit;
+    margin: 0 8px;
+}
+.line_or .row{
+    width: 43%;
+}
+.line_or .line{
+    border-top: 1px solid rgb(215, 214, 214);
+
+}
+form input{
+    width: 96%;
+    height: 6vh;
+    font-size: initial;
+    border: 1px solid rgb(215, 214, 214);
+    padding: 2px 5px;
+}
+.blk{
+    background-color: black;
+    color: white;
+}
+.lst{
+    width: 100%;
+    height: 3vh;
+    position: relative;
+    top: 20px;
+    left: -4px;
+    font-weight: 600;
+}
+.lst a{
+    text-decoration: none;
+}
+.lst a:hover{
+    text-decoration: underline;
+    color: rgb(29, 155, 240)
+}
+.lst span{
+    color: rgb(29, 155, 240);
+}

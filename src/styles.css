@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.text_font_h{
+    font-family: 'Source Serif Pro', serif;
+}
+.text_font_p{
+    font-family: 'Lato', sans-serif;
+}
